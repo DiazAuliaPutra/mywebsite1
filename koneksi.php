@@ -1,15 +1,17 @@
 <?php
 
 $server ="localhost";
-$username="root";
+$username ="root";
 $password ="";
-$database= "9_MYWEBSITE_12RPL2";
+$db ="09_petugas_12rpl2";
 
-$konek= mysqli_connect($server,$username,$password,$database);
+$koneksi = mysqli_connect($server, $username, $password, $db);
 
-if(!$konek) {
- die("gagal koneksi<br>".mysqli_connect_error()."<br>" .mysqli_connect_errno());
-}else{
-    //echo"koneksi Berhasil";
-}
+//if(!$koneksi){
+//    echo ("koneksi gagal");
+//}
+//else{
+//    echo "koneksi berhasil";
+//  }
+
 ?>
